@@ -1,0 +1,42 @@
+html body {
+    height: 100%;
+    width: 100%;
+    background-color: bisque;
+}
+
+h1{
+    text-align: center;
+    margin-top: 0px;
+}
+.spinner-grow{
+    --bs-spinner-width: 1rem;
+    --bs-spinner-height: 1rem;
+    background-color: beige;
+}
+
+.btn:focus {
+    outline-color: transparent;
+    outline-style:solid;
+    box-shadow: 0 0 0 4px #5abcfa;
+}
+span{
+    background-color: #0e4300;
+    width: 0rem
+    /* height: 0px; */
+}
+.card{
+    padding: 115px 57px;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    margin: 45px 643px;
+    background-color: rgb(10, 131, 159);
+    border-radius: 4rem;
+}
+#first{
+    color: aliceblue;
+}
+img{
+    height: 273pxpx;
+    border-radius: 4rem;
+}

@@ -1,0 +1,10 @@
+console.log("Hello");
+let a = new Date();
+let h = a.getHours();
+let m = a.getMinutes();
+let s = a.getSeconds();
+console.log("Date: "+a);
+console.log("hours: "+h);
+console.log("Minutes: "+m);
+console.log("Secondd: "+s);
+console.log(new Date().toDateString());
