@@ -42,3 +42,16 @@ let b = krishna();//all the process runs parallely
 a.then((value)=>{
     console.log(value);
 })
+
+// //so due to await we can actually make the execution wait 
+// const krishna = a()=>{
+//     console.log("hey i am krishna and im not waiting"); 
+// }
+// console.log("Welcome to weather control room!");
+// kisna();
+// let a = kisna();
+// let b = krishna();//all the process runs parallely
+// // console.log(a);
+// a.then((value)=>{
+//     console.log(value);
+// })
