@@ -31,20 +31,7 @@ async function kisna(){
 
 }
 
-const krishna =()=>{
-    console.log("hey i am krishna and im not waiting"); 
-}
-console.log("Welcome to weather control room!");
-kisna();
-let a = kisna();
-let b = krishna();//all the process runs parallely
-// console.log(a);
-a.then((value)=>{
-    console.log(value);
-})
-
-// //so due to await we can actually make the execution wait 
-// const krishna = a()=>{
+// const krishna =()=>{
 //     console.log("hey i am krishna and im not waiting"); 
 // }
 // console.log("Welcome to weather control room!");
@@ -55,3 +42,15 @@ a.then((value)=>{
 // a.then((value)=>{
 //     console.log(value);
 // })
+
+//so due to await we can actually make the execution wait 
+const krishna = async ()=>{
+    console.log("hey i am krishna and im not waiting"); 
+}
+
+const main1 = () =>{
+    console.log("Welcome to weather control room!");
+    let a = await kisna();
+    let b = await krishna();
+
+}
