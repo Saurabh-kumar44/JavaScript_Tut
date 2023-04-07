@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch Api</title>
+</head>
+<body>
+    <h1>Fetch Api</h1>
+    AJAX = asynchronous javascript and XML
+    Fetch Api is a two stage process(thats why two .then() are there)
+    <br>
+1- An object of ressponse class containing "status" & "ok" properties
+<br>
+         status - The http status code ex:200
+         <br>
+         ok     - Boolean, true fi the HTTP status code is 200-299
+         <br>
+ 2- After that we need to call another method to access the ody in different formats
+ <br>
+         response.text() - Read & return the text
+         <br>
+         response.json() - parse the response as JSON
+
+    //Another method include response.fromData(), response.blop(), response.arrayBuffer() 
+
+    <script src="/JS/24(map)/33FetchApi.js"></script>
+</body>
+</html>
