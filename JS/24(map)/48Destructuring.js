@@ -29,3 +29,11 @@ function sum(v1, v2, v3){
     return v1 + v2 + v3;
 }
 console.log(sum(...arr1));
+
+
+let obj2 = {
+    name: 'popu',
+    company: "google",
+    address: "yxz"
+}
+console.log({...obj2, name:"kisna"});
