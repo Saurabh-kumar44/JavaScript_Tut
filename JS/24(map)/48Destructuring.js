@@ -18,6 +18,14 @@
 // console.log(a,b);
 
 //Spead syntax- allows an iterable such as an array or string to be expanded in places where zero or more arguments are expexted, In an object literal, the soread syntax enumerated the proprties of an object and adds the key-value pairs to the ibject being created
+// let arr1 = [3,5,6]
+// let obj1 = { ...arr1 } //making into object(... = spread operator)
+// console.log(obj1);
+
 let arr1 = [3,5,6]
-let obj1 = { ...arr1 } //making into object
+let obj1 = { ...arr1 } //making into object(... = spread operator)
 console.log(obj1);
+function sum(v1, v2, v3){
+    return v1 + v2 + v3;
+}
+console.log(sum(...arr1));
