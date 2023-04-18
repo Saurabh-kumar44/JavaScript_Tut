@@ -36,4 +36,5 @@ let obj2 = {
     company: "google",
     address: "yxz"
 }
-console.log({...obj2, name:"kisna"});
+console.log({...obj2, name:"kisna"}); //here name kisna will be override
+console.log({ name:"kisna", ...obj2});//here override first then whole obj will be print as it is(so name not changes)
