@@ -10,6 +10,9 @@
 // let [a, b, c, ...rest] = arr;
 // console.log(a, b, c, rest); //now remaining values get into the rest
 
-let arr = [2,4,3,5,6];
-let [a, , ,...rest] = arr;
-console.log(a, rest);
+// let arr = [2,4,3,5,6];
+// let [a, , ,...rest] = arr;
+// console.log(a, rest);
+
+let {a, b} = {a: 1, b:5}
+console.log(a,b);
