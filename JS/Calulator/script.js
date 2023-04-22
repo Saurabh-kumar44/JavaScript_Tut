@@ -7,7 +7,7 @@ Array.from(buttons).forEach((button) => { //it means make array from these butto
       document.querySelector("input").value = string;
     }
      else if(e.target.innerHTML == 'C'){
-      string = ""; // eval evaluates the expression
+      string = ""; //
       document.querySelector("input").value = string;
     }
     else{ 
