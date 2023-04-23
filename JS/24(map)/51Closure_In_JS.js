@@ -39,7 +39,7 @@ function init() {
       console.log(name); // use variable declared in the parent function
     }
     name = "kkusna"; //lexical environment
-    return displayName;
+    return displayName;  
   }
 let c = init();
 c();
