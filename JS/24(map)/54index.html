@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Password Generator</title>
+  <!-- <link rel="stylesheet" href="54style.css"> -->
+</head>
+<style>
+    body {
+      background-color: #726c6c;
+      font-family: Arial, sans-serif;
+      margin: 0;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #a19b9b;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      transition: 0.3s;
+    }
+
+    .container:hover {
+      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    h1 {
+      text-align: center;
+      margin-top: 0;
+    }
+
+    form {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 20px;
+    }
+
+    .sidebar {
+      display: flex;
+      flex-direction: column;
+      margin-right: 20px;
+    }
+
+    .sidebar label {
+      display: block;
+      margin-bottom: 10px;
+      cursor: pointer;
+      font-size: 20px;
+      color: #555;
+      transition: 0.3s;
+    }
+
+    .sidebar label:hover {
+      font-size: 22px;
+      font-weight: bold;
+    }
+
+    .sidebar select {
+      margin-bottom: 10px;
+      font-size: 16px;
+      padding: 5px;
+      border: 2px solid #ccc;
+      border-radius: 4px;
+      background-color: #f1f1f1;
+      color: #555;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .sidebar select:hover {
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    .input {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .input input {
+      width: 100%;
+      padding: 10px;
+      font-size: 20px;
+      border: none;
+      border-bottom: 2px solid blue;
+      outline: none;
+      background-color: transparent;
+      color: blue;
+      transition: 0.3s;
+    }
+
+    .input input:focus {
+      border-bottom: 2px solid dodgerblue;
+    }
+
+    button {
+      padding: 10px;
+      font-size: 16px;
+      border: none;
+      border-radius: 4px;
+      background-color: dodgerblue;
+      color: #fff;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background-color: #0052cc;
+    }
+
+    .result {
+      margin-top: 20px;
+      text-align: center;
+    }
+
+    .card {
+      position: absolute;
+      top: 50px;
+      right: 50px;
+      width: 200px;
+      padding: 10px;
+      background-color: #fff;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      transition: 0.3s;
+      visibility: hidden;
+      opacity: 0;
+    }
+
+    .card.show {
+      visibility: visible;
+      opacity: 1;
+    }
+  </style>
+
+<body>
+  <div class="container">
+    <h1>Password Generator</h1>
+    <form>
+      <label for="level">Select Password Difficulty:</label>
+      <select id="level" name="level">
+        <option value="simple">Simple</option>
+        <option value="tough">Tough</option>
+        <option value="super-hard">Super Hard</option>
+      </select>
+      <button type="submit">Generate Password</button>
+    </form>
+    <div class="result"></div>
+  </div>
+  <script src="/JS/24(map)/54Password_Genrator.js"></script>
+</body>
+</html>
+
