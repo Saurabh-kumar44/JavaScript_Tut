@@ -1,6 +1,8 @@
 //There are two type of module in JS
 // 1- Common module
-2 
+// 2 - ES6
+
+//Modules - it helps you to break your code into seperate files
 
 //Common JS modules
 // const hello = require("./58module1.js"); //// without destructuring
