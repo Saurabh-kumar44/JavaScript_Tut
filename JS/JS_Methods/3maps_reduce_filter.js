@@ -14,9 +14,25 @@
 // console.log(a);
 
 //Array filter method
-let arr2 = [2,3,423,532,5,1,0,33]
-let a2 = arr2.filter((a)=>{
-    return a>33;
-})
-console.log(a2);
+// let arr2 = [2,3,423,532,5,1,0,33]
+// let a2 = arr2.filter((a)=>{
+//     return a>33;
+// })
+// console.log(a2);
 
+
+//Array Reduce methods
+// let arr3 = [1,2,4,3,6,2]
+// let newArr = arr3.reduce((h1, h2)=> {
+//     return h1 + h2;
+// })
+// console.log(newArr);
+
+        //OR (same)
+let arr3 = [1,2,4,3,6,2]
+let reduce_arr = (h1,h2) => {
+    return h1 + h2
+}
+
+let newArr = arr3.reduce(reduce_arr);
+console.log(newArr);
