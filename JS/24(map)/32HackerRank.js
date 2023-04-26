@@ -1,10 +1,10 @@
 const a = [
     "Initializating Hack Tool....",
-    "Connecting to Facebook....",
+    "Connecting to Facebook neeraj pp....",
     "Connecting to server....",
     "Connection Failed, Retrying....",
     "Connected Successfully....",
-    "User name iamKisna....",
+    "User name neeraj patel....",
     "Trying Brute force....",
     "200k passwords tried....",
     "Match not Found....",
