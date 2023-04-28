@@ -1,0 +1,6 @@
+steps:
+    -paste the index.js, package.json, and rename.sh
+    -now open the folder in the terminal
+    -run node index.jso
+
+o/p - your all file get renamed
