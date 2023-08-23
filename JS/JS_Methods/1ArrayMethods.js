@@ -45,13 +45,13 @@ console.log(arr);
 //splice()- used to add new items to an array
 //  .splice(index, no. of elements to remove, elements to be added)
 let num = [551,4,6,63,734,1,64,7,3]
-// num.splice(2,4, 1011,1012,10113) // here start from index=2, and removes 3 elements- 6,734,1 and add this 1011,1012,10113 
+num.splice(2,4, 1011,1012,10113) // here start from index=2, and removes 3 elements- 63,734,1 and add this 1011,1012,10113 
 // let deletVal = num.splice(2,4, 1011,1012,10113)
-// console.log(num);
+console.log(num);
 // console.log(deletVal, typeof deletVal); //return the object of array of deleted values
 
 //slice() - slices out a piece from an array (it creates a new array)
 // let newNUM = num.slice(2)
-let newNUM = num.slice(2, 4)// 4th index not included 
-console.log(newNUM);
+// let newNUM = num.slice(2, 4)// 4th index not included 
+// console.log(newNUM);
 

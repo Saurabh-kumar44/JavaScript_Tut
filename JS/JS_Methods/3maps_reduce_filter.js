@@ -22,17 +22,19 @@
 
 
 //Array Reduce methods
-// let arr3 = [1,2,4,3,6,2]
-// let newArr = arr3.reduce((h1, h2)=> {
-//     return h1 + h2;
-// })
-// console.log(newArr);
+let arr3 = [1,2,4,3,6,2]
+let newArr = arr3.reduce((h1, h2)=> {
+    // console.log(h1,":",h2);
+    return h1 + h2;
+
+})
+console.log(newArr);
 
         //OR (same)
-let arr3 = [1,2,4,3,6,2]
-let reduce_arr = (h1,h2) => {
-    return h1 + h2
-}
+// let arr3 = [1,2,4,3,6,2]
+// let reduce_arr = (h1,h2) => {
+//     return h1 + h2
+// }
 
-let newArr = arr3.reduce(reduce_arr);
-console.log(newArr);
+// let newArr = arr3.reduce(reduce_arr);
+// console.log(newArr);

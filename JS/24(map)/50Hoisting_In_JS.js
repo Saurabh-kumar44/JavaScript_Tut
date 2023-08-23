@@ -7,7 +7,7 @@
 // // greet();//here this seems to be get at the top and still works in JS
 
 
-console.log(a); //still not shows error(due to hoisting)
+// console.log(a); //still not shows error(due to hoisting)
 greet();
 function greet(){
     console.log("hoisting");
